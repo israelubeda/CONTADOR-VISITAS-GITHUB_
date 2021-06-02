@@ -36,13 +36,13 @@ En el caso que uses [RemoteMySql](https://remotemysql.com), sigue los siguientes
 ```bash
 # Ve a la pestaña databases,
 # Da clic en ACTION y elige la opcion phpMyAdmin
-# Ingresa las credenciales de tu base de datos (user y password)
+# Usa las credenciales (user y password) de tu base de datos creada para ingresar a phpMyAdmin
 # Dale clic en crear tabla 'visitas' con 2 columnas (id, github_contador_visitas)
 ```
 Listo!
-### 4. Deploy to heroku
+### 4. Despliega tu aplicación a heroku
 
-Si deseas incluir esta etiqueta en tu repositorio, da click al siguiente botón y despliegalo en Heroku!
+Dale click al siguiente botón y despliega en Heroku!
 
 <a href="https://heroku.com/deploy?template=https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">

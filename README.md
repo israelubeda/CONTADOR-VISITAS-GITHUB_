@@ -26,7 +26,7 @@ En el caso que no tengas una BD remota, puedes usar la que yo utilizo [RemoteMyS
 # Create una cuenta
 # Ingresa a tu cuenta
 # Ve a la pestaña databases
-# Dale clic a Create New Database (para que te aparezca el botón, primero debes contestar una super pequeña encuesta).
+# Dale clic a Create New Database (para que te aparezca el botón, primero debes contestar una pequeña encuesta).
 # Te va a salir un div con un mensaje acerca de las credenciales de tu BD creada, ANÓTALA porque despues desaparece.
 # Ingresa las credenciales en el archivo conexion.php
 ```

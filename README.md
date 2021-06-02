@@ -7,10 +7,10 @@ Contador de visitas a tu pagina web, perfil de GitHub y/o con las modificaciones
 <img title="visitas" src="https://github-contador-visitas.herokuapp.com">
 
 # Uso
-## 1. Dale Fork a este repositorio
-[fork my repository](https://github.com/user/repository/fork)
+### 1. Dale Fork a este repositorio
+[fork my repository](https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/fork)
 
-## 3. Crea tu base de datos
+### 2. Crea tu base de datos
 Puedes usar cualquier base de datos remota. Ingresa las credenciales en el archivo conexion.php:
 ```bash
 <?php
@@ -29,10 +29,19 @@ En el caso que no tengas una BD remota, puedes usar la que yo utilizo [RemoteMyS
 # Ingresa las credenciales en el archivo conexion.php
 ```
 
-## 2. Deploy to heroku
+### 3. Crea la tabla 'visitas' con los campos 'id' y 'github_contador_visitas' en tu BD remota
+En el caso que uses [RemoteMySql](https://remotemysql.com), sigue los siguientes pasos:
+```bash
+# Ve a la pestaña databases,
+# Da clic en ACTION y elige la opcion phpMyAdmin
+# Ingresa las credenciales de tu base de datos (user y password)
+# Dale clic en crear tabla 'visitas' con 2 columnas (id, github_contador_visitas)
+```
+Listo!
+### 4. Deploy to heroku
 
 Si deseas incluir esta etiqueta en tu repositorio, da click al siguiente botón y despliegalo en Heroku!
 
-<a href="https://heroku.com/deploy?template=https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB/tree/master">
+<a href="https://heroku.com/deploy?template=https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>

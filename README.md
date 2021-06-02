@@ -48,6 +48,9 @@ Dale click al siguiente botón y luego en la nueva pestaña que aparece dale 'De
 <a href="https://heroku.com/deploy?template=https://github.com/${{ env.REPOSITORY_OWNER}}/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
+<a href="https://heroku.com/deploy?template=https://github.com/heroku/node-js-getting-started">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
 <br />
 <br />
 Listo!

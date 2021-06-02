@@ -1,6 +1,6 @@
 # Contador Visitas GitHub - Descripcion
 
-Contador de visitas a tu pagina web, perfil de GitHub y/o con las modificaciones necesarias al script puedes incluirlo a uno o más repositorios individualmente (explicacion al final de este documento).
+Contador de visitas a tu pagina web, perfil de GitHub y/o con las modificaciones necesarias al script puedes incluirlo a uno o más repositorios individualmente (añadiendo nuevas columnas a la tabla 'visitas' en tu Base de datos, por ejemplo).
 
 # Contador Visitas GitHub - Demo
 

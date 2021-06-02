@@ -27,7 +27,7 @@ En el caso que no tengas una BD remota, puedes usar la que yo utilizo [RemoteMyS
 # Ingresa a tu cuenta
 # Ve a la pestaña databases
 # Dale clic a Create New Database (para que te aparezca el botón, primero debes contestar una pequeña encuesta).
-# Te va a salir un div con un mensaje acerca de las credenciales de tu BD creada, ANÓTALA porque despues desaparece.
+# Te va a salir un div con un mensaje acerca de las credenciales de tu BD creada, ANÓTALA porque después desaparece.
 # Ingresa las credenciales en el archivo conexion.php
 ```
 
@@ -49,7 +49,8 @@ Dale click al siguiente botón y luego en la nueva pestaña que aparece dale 'De
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 
+
 Listo!
 
-## Dato
+## Nota
 Con las modificaciones necesarias al script, puedes incluirlo a uno o más repositorios individualmente (añadiendo nuevas columnas a la tabla 'visitas' en tu Base de datos, por ejemplo).

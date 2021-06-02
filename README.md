@@ -9,7 +9,7 @@ Contador de visitas a tu pagina web, perfil de GitHub y/o con las modificaciones
 
 # Uso
 ### 1. Dale Fork a este repositorio
-[fork my repository](https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/fork)
+[Contador Visitas GitHub](https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/fork)
 
 ### 2. Crea tu base de datos
 Puedes usar cualquier base de datos remota. Ingresa las credenciales en el archivo conexion.php:

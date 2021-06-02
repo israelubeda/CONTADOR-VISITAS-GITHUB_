@@ -52,4 +52,13 @@ Dale click al siguiente botón y luego en la nueva pestaña que aparece dale 'De
 Listo!
 
 # Nota
-Con las modificaciones necesarias al script, puedes incluirlo a uno o más repositorios individualmente (añadiendo nuevas columnas a la tabla 'visitas' en tu Base de datos, por ejemplo).
+Con las modificaciones necesarias al script (añadiendo nuevas columnas a la tabla 'visitas' en tu Base de datos, por ejemplo), puedes incluir visitas para uno o más repositorios.
+
+## Participa
+<p align="center">
+  <a href="https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/subscription">
+    <img alt="Follow" title="Dale Me Gusta" src="https://shields.io/badge/-LIKE%20THIS%20REPO-informational.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/issues/new">
+    <img alt="Reportar problema" title="Ayudemos a mejorar" src="https://shields.io/badge/-REPORTA%20UN%20PROBLEMA-yellow.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+

@@ -1,6 +1,6 @@
 <?php
     //asignamos el numero de visitas actual a una variable, si no exite entonces se inicializa
-    $sql="SET @i = (SELECT IFNULL(MAX(github_contador_visitas),1000) FROM visitas);";
+    $sql="SET @i = (SELECT IFNULL(MAX(github_contador_visitas),0) FROM visitas);";
     mysqli_query($con,$sql);
     //incrementamos el valor de visitas
     $sql="INSERT INTO visitas(id,github_contador_visitas) VALUES(1, @i+1) ON DUPLICATE KEY UPDATE github_contador_visitas = VALUES(github_contador_visitas)";

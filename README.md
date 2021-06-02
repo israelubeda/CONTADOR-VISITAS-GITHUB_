@@ -1,7 +1,7 @@
 # Contador Visitas GitHub - Descripcion
 
 Contador de visitas a tu pagina web, perfil de GitHub o repositorios. 
-GITHUB_ACTOR
+
 # Contador Visitas GitHub - Demo
 
 <a href="https://github.com/KeyCuevasMelgarejo/KeyCuevasMelgarejo">
@@ -45,7 +45,7 @@ Ya casi esta lista tu aplicación!
 
 Dale click al siguiente botón y luego en la nueva pestaña que aparece dale 'Deploy App'
 
-<a href="https://heroku.com/deploy?template=https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/tree/master">
+<a href="https://heroku.com/deploy?template=https://github.com/{GITHUB_ACTOR}/CONTADOR-VISITAS-GITHUB_/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 <br />

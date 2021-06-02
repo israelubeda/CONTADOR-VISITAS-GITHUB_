@@ -55,7 +55,7 @@ Listo!
 Con las modificaciones necesarias al script (añadiendo nuevas columnas a la tabla 'visitas' en tu Base de datos, por ejemplo), puedes incluir visitas para uno o más repositorios.
 
 ## Participa
-<p align="center">
+<p align="left">
   <a href="https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/subscription">
     <img alt="Follow" title="Dale Me Gusta" src="https://shields.io/badge/-LIKE%20THIS%20REPO-informational.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/issues/new">

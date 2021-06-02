@@ -47,10 +47,9 @@ Dale click al siguiente botón y luego en la nueva pestaña que aparece dale 'De
 
 <a href="https://heroku.com/deploy?template=https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-
+</a><br>
 
 Listo!
 
-## Nota
+# Nota
 Con las modificaciones necesarias al script, puedes incluirlo a uno o más repositorios individualmente (añadiendo nuevas columnas a la tabla 'visitas' en tu Base de datos, por ejemplo).

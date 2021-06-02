@@ -13,7 +13,7 @@ Contador de visitas a tu pagina web, perfil de GitHub y/o con las modificaciones
     <img alt="Folk" title="Fork Button" src="https://shields.io/badge/-DAR%20FORK-red.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
 
 ### 2. Crea tu base de datos
-Puedes usar cualquier base de datos remota. Ingresa las credenciales en el archivo conexion.php:
+Puedes usar cualquier base de datos remota. Ingresa sus credenciales en el archivo conexion.php:
 ```bash
 <?php
     $hostname_db = "hostname_db";

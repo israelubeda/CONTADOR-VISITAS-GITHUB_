@@ -45,7 +45,7 @@ Ya casi esta lista tu aplicación!
 
 Dale click al siguiente botón y luego en la nueva pestaña que aparece dale 'Deploy App'
 
-<a href="https://heroku.com/deploy?template=https://github.com/${{GITHUB_REPOSITORY}}/tree/master">
+<a href="https://heroku.com/deploy?template=https://github.com/${{ env.REPOSITORY_OWNER}}/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 <br />

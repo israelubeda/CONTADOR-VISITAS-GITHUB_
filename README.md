@@ -45,7 +45,7 @@ Puedes enlazar heroku con el fork que hiciste de este proyecto o seguir los sigu
 ```bash
 # Modifica el archivo app.json, borra <USERNAME> y coloca tu nombre de usuario.
 # Modifica el archivo README.md (dirígete al código del botón de abajo), borra <USERNAME> y coloca tu nombre de usuario.
-# Dale click al siguiente botón y luego en la nueva pestaña que aparecerá, dale 'Deploy App'.
+# Dale click al botón de abajo. Al hacerlo una nueva pestaña que aparecerá, dale clic al botón 'Deploy App'.
 ```
 <a href="https://heroku.com/deploy?template=https://github.com/<USERNAME>/CONTADOR-VISITAS-GITHUB_/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">

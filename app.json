@@ -1,7 +1,7 @@
 {
   "name": "Contador de Visitas",
   "description": "Contador de visitas a tu perfil de GitHub",
-  "repository": "https://github.com/{repository-owner}/CONTADOR-VISITAS-GITHUB_",
+  "repository": "https://github.com/<USERNAME>/CONTADOR-VISITAS-GITHUB_",
   "logo": "https://github-contador-visitas.herokuapp.com",
   "keywords": ["github", "contador", "visitas"],
   "addons": []

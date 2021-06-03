@@ -1,5 +1,5 @@
 # Contador Visitas GitHub - Descripcion
-Contador de visitas a tu pagina web, perfil de GitHub o repositorios. 
+Contador de visitas para tu Página Web, perfil de GitHub o Repositorios. 
 
 # Contador Visitas GitHub - Demo
 

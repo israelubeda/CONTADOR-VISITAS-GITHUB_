@@ -44,7 +44,7 @@ Ya casi esta lista tu aplicación!
 
 Dale click al siguiente botón y luego en la nueva pestaña que aparece dale 'Deploy App'
 
-<a href="https://heroku.com/deploy?template=https://github.com/CI_REPOSITORY/CONTADOR-VISITAS-GITHUB_/tree/master">
+<a href="https://heroku.com/deploy?template=https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 <br />

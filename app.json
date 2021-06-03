@@ -2,7 +2,7 @@
   "name": "Contador de Visitas",
   "description": "Contador de visitas a tu perfil de GitHub",
   "repository": "https://github.com/<USERNAME>/CONTADOR-VISITAS-GITHUB_",
-  "logo": "https://github-contador-visitas.herokuapp.com",
+  "logo": "https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png",
   "keywords": ["github", "contador", "visitas"],
   "addons": []
 }

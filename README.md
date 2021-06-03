@@ -22,30 +22,30 @@ Puedes usar cualquier base de datos remota. Ingresa sus credenciales en el archi
 ```
 En el caso que no tengas una BD remota, puedes usar la que yo utilizo [RemoteMySql](https://remotemysql.com). Para crear tu BD alli, debes hacer lo siguiente:
 ```bash
-# Create una cuenta
-# Ingresa a tu cuenta
-# Ve a la pestaña databases
+# Create una cuenta.
+# Ingresa a tu cuenta.
+# Ve a la pestaña databases.
 # Dale clic a Create New Database (para que te aparezca el botón, primero debes contestar una pequeña encuesta).
 # Te va a salir un div con un mensaje acerca de las credenciales de tu BD creada, ANÓTALA porque después desaparece.
-# Ingresa las credenciales en el archivo conexion.php
+# Ingresa las credenciales en el archivo conexion.php .
 ```
 
 ### 3. Crea la tabla 'visitas' con los campos 'id' y 'github_contador_visitas' en tu BD remota
 En el caso que uses [RemoteMySql](https://remotemysql.com), sigue los siguientes pasos:
 ```bash
-# Ve a la pestaña databases,
-# Da clic en ACTION y elige la opcion phpMyAdmin
-# Usa las credenciales (user y password) de tu base de datos creada para ingresar a phpMyAdmin
-# Dale clic en crear tabla 'visitas' con 2 columnas (id, github_contador_visitas)
+# Ve a la pestaña databases.
+# Da clic en ACTION y elige la opcion phpMyAdmin.
+# Usa las credenciales (user y password) de tu base de datos creada para ingresar a phpMyAdmin.
+# Dale clic en crear tabla 'visitas' con 2 columnas (id, github_contador_visitas).
 ```
 Ya casi esta lista tu aplicación!
 
 ### 4. Despliega tu aplicación a heroku en 3 pasos
 Puedes enlazar heroku con el fork que hiciste de este proyecto o seguir los siguientes pasos:
 ```bash
-# Modifica el archivo app.json, borra <USERNAME> y coloca tu nombre de usuario.
-# Modifica el archivo README.md (dirígete al código del botón de abajo), borra <USERNAME> y coloca tu nombre de usuario.
-# Dale click al botón de abajo. Al hacerlo una nueva pestaña que aparecerá, dale clic al botón 'Deploy App'.
+# Modifica el archivo app.json, borra <USERNAME> y coloca tu nombre de usuario de github.
+# Modifica el archivo README.md (dirígete al código del botón de abajo), borra <USERNAME> y coloca tu nombre de usuario de github.
+# Dale click al botón de abajo. Al hacerlo una nueva pestaña aparecerá, dale clic al botón 'Deploy App'.
 ```
 <a href="https://heroku.com/deploy?template=https://github.com/<USERNAME>/CONTADOR-VISITAS-GITHUB_/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">

@@ -52,7 +52,7 @@ Puedes enlazar heroku con el fork que hiciste de este proyecto o seguir los sigu
 </a>
 <br />
 <br />
-Listo!
+Listo! Le das al botón 'Open App', copias la url y la pegas donde desees utilizarlo.
 
 # Nota
 Con las modificaciones necesarias al script (añadiendo nuevas columnas a la tabla 'visitas' en tu Base de datos, por ejemplo), puedes incluir visitas para uno o más repositorios.

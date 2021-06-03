@@ -40,11 +40,14 @@ En el caso que uses [RemoteMySql](https://remotemysql.com), sigue los siguientes
 ```
 Ya casi esta lista tu aplicación!
 
-### 4. Despliega tu aplicación a heroku en 2 pasos
-
-Dale click al siguiente botón y luego en la nueva pestaña que aparece dale 'Deploy App'
-
-<a href="https://heroku.com/deploy?template=https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/tree/master">
+### 4. Despliega tu aplicación a heroku en 3 pasos
+Puedes enlazar heroku con el fork que hiciste de este proyecto o seguir los siguientes pasos:
+```bash
+# Modifica el archivo app.json, borra <USERNAME> y coloca tu nombre de usuario.
+# Modifica el archivo README.md (dirígete al código del botón de abajo), borra <USERNAME> y coloca tu nombre de usuario.
+# Dale click al siguiente botón y luego en la nueva pestaña que aparecerá, dale 'Deploy App'.
+```
+<a href="https://heroku.com/deploy?template=https://github.com/<USERNAME>/CONTADOR-VISITAS-GITHUB_/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 <br />

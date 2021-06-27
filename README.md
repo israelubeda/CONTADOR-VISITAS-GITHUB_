@@ -1,7 +1,7 @@
-# Contador Visitas GitHub - Descripcion
+# Contador Visitas GitHub <img src="https://img.shields.io/badge/LICENCIA-GPL-critical?style=for-the-badge&logo=github&logoColor=white" alt="licencia" />
 Contador de visitas para tu Página Web, perfil de GitHub o Repositorios. 
 
-# Contador Visitas GitHub - Demo
+# Demo
 
 <a href="https://github.com/KeyCuevasMelgarejo/KeyCuevasMelgarejo">
     <img alt="visitas" title="Visitas Perfil GitHub" src="https://github-contador-visitas.herokuapp.com/"/></a>

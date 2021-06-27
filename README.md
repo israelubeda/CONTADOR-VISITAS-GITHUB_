@@ -2,7 +2,7 @@
 
 Contador de visitas para tu Página Web, perfil de GitHub o Repositorios. 
 
-<img src="https://img.shields.io/badge/LICENCIA-GPL-yellow?style=for-the-badge&logo=git&logoColor=white" alt="licencia" />
+<img src="https://img.shields.io/badge/LICENCIA-MIT-yellow?style=for-the-badge&logo=git&logoColor=white" alt="licencia" />
 
 # Demo
 

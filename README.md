@@ -1,4 +1,6 @@
-# Contador Visitas GitHub <img src="https://img.shields.io/badge/LICENCIA-GPL-critical?style=for-the-badge&logo=github&logoColor=white" alt="licencia" />
+# Contador Visitas GitHub 
+
+<img src="https://img.shields.io/badge/LICENCIA-GPL-critical?style=for-the-badge&logo=github&logoColor=white" alt="licencia" />
 Contador de visitas para tu Página Web, perfil de GitHub o Repositorios. 
 
 # Demo

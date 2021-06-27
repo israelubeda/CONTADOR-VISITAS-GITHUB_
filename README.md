@@ -63,4 +63,5 @@ Con las modificaciones necesarias al script (añadiendo nuevas columnas a la tab
     <img alt="Follow" title="Dale Me Gusta" src="https://shields.io/badge/-LIKE%20THIS%20REPO-informational.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://github.com/KeyCuevasMelgarejo/CONTADOR-VISITAS-GITHUB_/issues/new">
     <img alt="Reportar problema" title="Ayudemos a mejorar" src="https://shields.io/badge/-REPORTA%20UN%20PROBLEMA-yellow.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://ko-fi.com/keycuevasmelgarejo"><img alt="Ko-fi" title="Contribuye" src="https://shields.io/badge/-BUY%20ME%20A%20COFFEE-CC2735.svg?&style=for-the-badge&logo=ko-fi&logoColor=white"></a>
 </p>

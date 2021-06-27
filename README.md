@@ -7,7 +7,7 @@ Contador de visitas para tu Página Web, perfil de GitHub o Repositorios.
 # Demo
 
 <a href="https://github.com/KeyCuevasMelgarejo/KeyCuevasMelgarejo">
-    <img alt="visitas" title="Visitas Perfil GitHub" src="https://github-contador-visitas.herokuapp.com/"/></a>
+    <img alt="Si la etiqueta no se ve, dale F5 actualizar la página" title="Visitas Perfil GitHub" src="https://github-contador-visitas.herokuapp.com/"/></a>
 
 # Uso
 ### 1. Dale Fork a este repositorio

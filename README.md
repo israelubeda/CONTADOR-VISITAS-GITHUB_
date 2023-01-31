@@ -7,7 +7,7 @@ Contador de visitas para tu Página Web, perfil de GitHub o Repositorios.
 # Demo
 
 <a href="https://github.com/KeyCuevasMelgarejo/KeyCuevasMelgarejo">
-    <img alt="Si la etiqueta no se ve, dale F5 actualizar la página" title="Visitas Perfil GitHub" src="https://github-contador-visitas.herokuapp.com/"/></a>
+    <img alt="Si la etiqueta no se ve, dale F5 actualizar la página" title="Visitas Perfil GitHub" src="https://contador-visitas-github.vercel.app/"/></a>
 
 # Uso
 ### 1. Dale Fork a este repositorio
@@ -23,42 +23,36 @@ Puedes usar cualquier base de datos remota. Ingresa sus credenciales en el archi
     $username_db = "username_db";
     $password_db = "password_db";
 ```
-En el caso que no tengas una BD remota, puedes usar la que yo utilizo [RemoteMySql](https://remotemysql.com). Para crear tu BD alli, debes hacer lo siguiente:
+En el caso que no tengas una BD remota, puedes usar la que yo utilizo [PlanetScale](https://planetscale.com/). Para crear tu BD alli, debes hacer lo siguiente:
 ```bash
 # Create una cuenta.
-# Ingresa a tu cuenta.
-# Ve a la pestaña databases.
-# Dale clic a Create New Database (para que te aparezca el botón, primero debes contestar una pequeña encuesta).
-# Te va a salir un div con un mensaje acerca de las credenciales de tu BD creada, ANÓTALA porque después desaparece.
-# Ingresa las credenciales en el archivo conexion.php .
+# Ve a la pestaña Overview y dale clic en New Database. Le pones un nombre a tu base de datos y le das clic en el botón 'Create database'.
+# Para ver las credenciales ve a Overview y dale clic en el botón 'Connect'. En 'Connect with' elige la opcion general.
+# Dale clic en el botón 'New password' y tendrás las credenciales que reemplazarás en el $hostname_db, $database_db, $username_db y $password_db
 ```
 
 ### 3. Crea la tabla 'visitas' con los campos 'id' y 'github_contador_visitas' en tu BD remota
-En el caso que uses [RemoteMySql](https://remotemysql.com), sigue los siguientes pasos:
+En el caso que uses [PlanetScale](https://planetscale.com/), sigue los siguientes pasos:
 ```bash
-# Ve a la pestaña databases.
-# Da clic en ACTION y elige la opcion phpMyAdmin.
-# Usa las credenciales (user y password) de tu base de datos creada para ingresar a phpMyAdmin.
-# Dale clic en crear tabla 'visitas' con 2 columnas (id, github_contador_visitas).
+# Ve a la opción Console. 
+# En código SQL, seleccionas la base de datos escribiendo [ use TU_DATABASE; ]        (TOMA EN CUENTA EL PUNTO Y COMA)
+# En código SQL, creas la tabla [ CREATE TABLE 'visitas' (id INT, github_contador_visitas INT); ]        (TOMA EN CUENTA EL PUNTO Y COMA)
 ```
 Ya casi esta lista tu aplicación!
 
-### 4. Despliega tu aplicación a heroku en 3 pasos
-Puedes enlazar heroku con el fork que hiciste de este proyecto o seguir los siguientes pasos:
+### 4. Despliega tu aplicación en Vercel en 4 pasos
+Puedes enlazar [Vercel](https://vercel.com/) con el fork que hiciste de este proyecto o seguir los siguientes pasos:
 ```bash
-# Modifica el archivo app.json, borra <USERNAME> y coloca tu nombre de usuario de github.
-# Modifica el archivo README.md (dirígete al código del botón de abajo), borra <USERNAME> y coloca tu nombre de usuario de github.
-# Dale click al botón de abajo. Al hacerlo una nueva pestaña aparecerá, dale clic al botón 'Deploy App'.
+# Create una cuenta (esta demás mencionar que debes crearla enlazando con tu cuenta de GitHub).
+# Seleccionas en 'Add New' y eliges las opción 'Project'. 
+# Importas el repositorio de git.
+# Por último, sin modificar ningunas de las configuraciones que te salen por defecto, le das clic al botón 'Deploy App'.
 ```
-<a href="https://heroku.com/deploy?template=https://github.com/<USERNAME>/CONTADOR-VISITAS-GITHUB_/tree/master">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-<br />
-<br />
-Listo! Le das al botón 'Open App', copias la url y la pegas donde desees utilizarlo.
+
+Listo!
 
 # Nota
-Con las modificaciones necesarias al script (añadiendo nuevas columnas a la tabla 'visitas' en tu Base de datos, por ejemplo), puedes incluir visitas para uno o más repositorios.
+Con las modificaciones necesarias en PlanetScale, puedes incluir branches para añadir la funcionalidad de visitas para uno o más repositorios. Explota tu creatividad!
 
 ## Participa
 <p align="left">

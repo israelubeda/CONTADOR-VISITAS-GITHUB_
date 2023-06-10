@@ -1,8 +1,8 @@
 <?php
-    $hostname_db = "hostname_db";
-    $database_db = "database_db";
-    $username_db = "username_db";
-    $password_db = "password_db";
+    $hostname_db = "aws.connect.psdb.cloud";
+    $database_db = "gotarsi";
+    $username_db = "0n3rwpm4p1w0w3rp8b1n";
+    $password_db = "pscale_pw_HR7G8qY8qoSHOqh5VBjgdS0OkjGjt0NCk7XaJCAwemw";
 
     $con=mysqli_init();
     if (!$con){
